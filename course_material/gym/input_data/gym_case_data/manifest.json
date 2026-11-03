@@ -1,0 +1,46 @@
+{
+  "data_version": "gym-propensity-4.0",
+  "seed": 76,
+  "extracted_at": "2025-06-01T09:00:00+00:00",
+  "contact_limit": 1000,
+  "booking_limit": 200,
+  "outcome_days": 30,
+  "reconciliation_days": 3,
+  "target_origin": "decision_time",
+  "eligibility": "all permission-eligible members, irrespective of PT history",
+  "synthetic": true,
+  "tables": {
+    "members": {
+      "rows": 2000,
+      "sha256": "d4f351134b15ce6d8d6ec75d0f6c39287929ebb05080e9814b1a23a6cd0c9144"
+    },
+    "locations": {
+      "rows": 6,
+      "sha256": "c348dd078b73d007dd715a3395353d6bbd0b4b8d0f2dcf9b865441366191d7a7"
+    },
+    "campaigns": {
+      "rows": 6,
+      "sha256": "81a156dcaa49259346102b6ca79602a1fb66943e6b1ba82e7bf3780731dc57a5"
+    },
+    "activity_events": {
+      "rows": 40268,
+      "sha256": "10b5767401ec5653057bc1e260b3ee717990c3c195e1c277b338084f6b09d4f7"
+    },
+    "promotion_exposures": {
+      "rows": 624,
+      "sha256": "64b63be9cdab72a8981628cfa89cb1e1b883c0c6fb2f27bb8d1ea60d9be48124"
+    },
+    "consultations": {
+      "rows": 420,
+      "sha256": "a8de58d148d6cd78639761cc2d016fcdd75da7734e11e4abf37af01ac2c879de"
+    },
+    "payment_events": {
+      "rows": 178,
+      "sha256": "3e5e7684fa5a46b33ad82a002a7ea3117d8d29494c0cd67aa356263fc26e0e69"
+    },
+    "source_health": {
+      "rows": 36,
+      "sha256": "037e61eca718601dd200603519b03ec521972def9d9932ca50b87238575c2e0e"
+    }
+  }
+}

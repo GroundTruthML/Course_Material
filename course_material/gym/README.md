@@ -1,26 +1,15 @@
-# Gym Marketing Case — Colab Learner Path
+# Gym Marketing — Colab Learner Path
 
-This folder contains the four learner notebooks for the Gym marketing case. The example data is synthetic.
+Open any of the four notebooks from the course website and choose **Runtime → Run all**. The setup gets the course files and raw synthetic inputs from GitHub and prepares a temporary CPU runtime. No personal-storage connection or folder upload is required.
 
-## Start in Google Colab
+Study **01 → 02 → 03 → 04**. Separate notebook tabs may use separate runtimes. Missing prerequisite outputs are regenerated automatically from the preceding notebooks, so a later notebook does not depend on another tab's files. Allow a few minutes for setup and prerequisite computation.
 
-1. Open **Notebook 01** from the Ground Truth ML case-study website, or open the notebook file here and choose **Open in Colab**.
-2. Run the first setup cell. It connects Google Drive, clones this public course repository into My Drive/GroundTruth_Course_Material, prepares the compressed synthetic input tables and installs the pinned libraries.
-3. Run the notebooks in order: **01 → 02 → 03 → 04**. Keep the same course folder in Drive so each notebook can use the outputs from the previous step.
+All input copies, fitted models and results stay in the temporary runtime. If it is reset or reclaimed, rerun the notebook. Personal edits in one runtime are not synchronized to another. GitHub contains the read-only course originals; it does not save your notebook edits or outputs. Use the website Reinforcement section for your interpretation notes; its draft stays in that browser.
 
-The input package contains only the raw synthetic tables required to begin EDA and their data manifest. Notebook 01 creates the cleaned and analysis outputs used by later notebooks. The data generator (Notebook 00) is an internal preparation tool and is not part of the learner path.
+## Scope
 
-## Notebooks
+Four learner notebooks, pinned dependencies and eight compressed synthetic raw tables. Notebook 00 (the generator) is excluded. Outputs are teaching proposals, not campaign instructions; no messages are sent or bookings made. Purchase propensity does not establish causal marketing lift.
 
-1. [01 — Data Readiness and EDA](notebook/01_data_readiness_and_eda.ipynb)
-2. [02 — Basic Modeling](notebook/02_basic_modeling.ipynb)
-3. [03 — Advanced Modeling](notebook/03_advanced_modeling.ipynb)
-4. [04 — Member Scoring and Business Decision](notebook/04_member_scoring_and_business_decision.ipynb)
+## Validation
 
-## Data and evidence boundaries
-
-All records are synthetic teaching data. This case demonstrates a purchase-propensity workflow and a campaign-list decision; it does not estimate marketing lift or represent real members. The model scores and lists are reference outputs, not campaign instructions. No messages are sent and no appointments are booked.
-
-## Environment and validation
-
-Pinned Colab dependencies are listed in requirements-colab.txt. The setup cell uses Google Drive authentication and installs them into a dedicated runtime path. The notebooks have not yet been run end to end in an authenticated hosted Colab session; that remains a separate verification step.
+Local clean-environment execution and actual hosted Colab checks are recorded separately. See the project validation report for the tested version and remaining limits.
